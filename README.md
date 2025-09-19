@@ -29,7 +29,15 @@ User-Order-Microservices/
 ## User API
 
 ### ➤ Create User
-**Endpoint:**
+**Curl:**
+```json
+curl --location 'http://127.0.0.1:5001/users' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "name": "Tanmay Ranaware",
+    "email": "tanmayranware14@gmail.com"
+}'
+```
 
 **Request Body:**
 ```json
@@ -37,7 +45,7 @@ User-Order-Microservices/
   "name": "Tanmay Ranaware",
   "email": "tanmayranaware14@gmail.com"
 }
-
+```
 **Response Body:**
 ```json
 {
