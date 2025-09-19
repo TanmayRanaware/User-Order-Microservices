@@ -39,20 +39,24 @@ curl --location 'http://127.0.0.1:5001/users' \
     "email": "tanmayranware14@gmail.com"
 }'
 ```
-
-**Request Body:**
-```json
-{
-  "name": "Tanmay Ranaware",
-  "email": "tanmayranaware14@gmail.com"
-}
-```
 **Response Body:**
 ```json
 {
   "user_id": 5
 }
-
+```
+### ➤ Get User
+**Curl:**
+```bash
+curl --location 'http://127.0.0.1:5001/users/5'
+```
+**Response Body:**
+```json
+{
+    "email": "tanmayranware14@gmail.com",
+    "name": "Tanmay Ranaware"
+}
+```
 
 
 
