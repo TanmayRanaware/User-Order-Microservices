@@ -20,10 +20,6 @@ Perfect for learning local microservice wiring, HTTP contracts, and simple error
 ---
 
 ## Project Structure
-├── user_service.py
-├── order_service.py
-
-
 ```
 Serverless-WebApp/
 ├── user_service.py      # User Service
