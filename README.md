@@ -24,6 +24,26 @@ User-Order-Microservices/
 ├── order_service.py     # Order Serivice
 ```
 
+# API Documentation
+
+## User API
+
+### ➤ Create User
+**Endpoint:**
+
+**Request Body:**
+```json
+{
+  "name": "Tanmay Ranaware",
+  "email": "tanmayranaware14@gmail.com"
+}
+
+**Response Body:**
+```json
+{
+  "user_id": 5
+}
+
 
 
 
