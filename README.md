@@ -11,11 +11,9 @@ Perfect for learning local microservice wiring, HTTP contracts, and simple error
 
 ## Features
 
-- Two isolated Flask apps with clear responsibilities
+- Two  services with clear responsibilities
 - Cross-service HTTP call (`requests` from Order → User)
 - Minimal, readable code
-- cURL examples for quick manual testing
-- Troubleshooting tips for common local issues (e.g., port already in use)
 
 ---
 
