@@ -28,9 +28,10 @@ User-Order-Microservices/
 
 ## User API
 
+
 ### ➤ Create User
 **Curl:**
-```json
+```bash
 curl --location 'http://127.0.0.1:5001/users' \
 --header 'Content-Type: application/json' \
 --data-raw '{
