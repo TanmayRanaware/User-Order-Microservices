@@ -58,5 +58,39 @@ curl --location 'http://127.0.0.1:5001/users/5'
 }
 ```
 
+### ➤ Create Order API
+**Curl:**
+```bash
+curl --location 'http://127.0.0.1:5002/orders' \
+--header 'Content-Type: application/json' \
+--data '{
+    "user_id": 5,
+    "product": "Iphone17"
+}'
+```
+**Response Body:**
+```json
+{
+    "order_id": 5
+}
+```
+
+### ➤ Get Order
+**Curl:**
+```bash
+curl --location 'http://127.0.0.1:5002/orders/5'
+```
+**Response Body:**
+```json
+{
+    "product": "Iphone17",
+    "user": {
+        "email": "tanmayranware14@gmail.com",
+        "name": "Tanmay Ranaware"
+    },
+    "user_id": 5
+}
+```
+
 
 
