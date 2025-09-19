@@ -24,5 +24,12 @@ Perfect for learning local microservice wiring, HTTP contracts, and simple error
 ├── order_service.py
 
 
+```
+Serverless-WebApp/
+├── user_service.py      # User Service
+├── order_service.py     # Order Serivice
+```
+
+
 
 
